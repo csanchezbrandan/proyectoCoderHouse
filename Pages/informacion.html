@@ -39,12 +39,20 @@
       </nav>
     </div>
     <form class="formulario">
-      <label id="form" placeholder="Nombre">Nombre: </label><br>
-      <input type="text"><br>
-      <label id="form">Apellido: </label><br>
-      <input type="text"><br><br>
-      <input id="boton" type="submit" value="Enviar">
-      <textarea name="textarea" rows="10" cols="50"> Dejanos tu comentario</textarea>
+      <div class="container">
+        <!-- The input -->
+        <input placeholder="Nombre: " class="container__input" /> 
+        <!-- The label -->
+        <label class="container__label">Nombre: </label>
+        <div class="container">
+            <!-- The input -->
+            <input placeholder="Apellido: " class="container__input" />
+            <!-- The label -->
+            <label class="container__label">Apellido: </label>
+
+            <button class="boton">Enviar</button>
+        </div>
+    </div>
     </form>
 </body>
 </html>

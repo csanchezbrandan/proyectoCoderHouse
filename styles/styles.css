@@ -159,18 +159,44 @@ video {
 
 }
 
-.formulario{
-  background-color: rgb(226, 87, 219);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display:flex;
-  align-items:center;
-  flex-direction: column;
 
+.container {
+  position: absolute;
 }
 
-#form{
-  color:#ffffff;
-  font-size: 20px;
+/*
+Show the label at desired position when the 
+placeholder of input isn't shown
+*/
+.container__input:not(:placeholder-shown) + .container__label {
+  background: #fff;
+  transform: translate(0, -50%);
+  opacity: 1;
+}
+
+.container__input{
+  margin-top: 12px;
+  padding: 8px;
+}
+
+.container__label{
+  margin-top: 10px;
+
+}
+.container__label {
+  /* Position the label */
+  left: 20px;
+  position:absolute;
+  top: 0;
+  /* Hide it by default */
+  opacity: 0;
+  transition: all 200ms;
+}
+.boton{
+
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: auto;
 }
 
  footer{
