@@ -7,7 +7,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
   width: 100%;
-  position: fixed;
   top:0;
   left: 0;
   background: white;
@@ -22,14 +21,15 @@ header{
 }
 
 .logo img{
-  display: block;
+  display: flex;
   margin-top: 0;
-  height: 100px;
-  width: 100px;
-
+  height: 80px;
+  width: 80px;
 }
 /*BARRA DE MENU*/
 .container__menu{
+  display: flex;
+  justify-content:space-evenly;
   width: 100%;
   height: 80px;
   background-color: #7c8569;
@@ -125,7 +125,7 @@ nav ul li ul li a:hover{
 
 /*aca deberian ver las imagenes  que pasan*/
 .carrusel{
-  display: grid;
+  display: flex;
   align-items: center;
   background-color:#52493a;
   max-width: 1000px;
@@ -160,7 +160,9 @@ video {
 
 /*FORMULARIO DE CONTACTO EN PAGE INFORMACION*/
 .container {
-  position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .container__input:not(:placeholder-shown) + .container__label {
@@ -181,8 +183,8 @@ video {
 .container__label {
   /* Position the label */
   left: 20px;
-  position:absolute;
-  top: 0;
+  position:relative;
+  /*top: 0;*/
   /* Hide it by default */
   opacity: 0;
   transition: all 200ms;
