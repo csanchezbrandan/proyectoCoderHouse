@@ -12,10 +12,11 @@
     </div>
     <div class="container__menu">
       <img src="./images/logo.svg" alt="Logo">
-      <nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
         <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./Pages/queHacer.html">que hacer</a>
+          <li class="nav-item"><a class="nav-link active" href="./index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./Pages/queHacer.html">que hacer</a>
             <ul>
               <li><a href="./Pages/AventuraNaturaleza.html ">aventura y naturaleza</a></li>
               <li><a href="./Pages/cocinayvinos.html">cocina y vinos</a></li>
@@ -37,6 +38,7 @@
         </ul>
       </nav>
     </div>
+  </div>
   </header>
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -79,7 +81,9 @@
   </div>
 </div>
   <!--SECTION PARA VIDEO INSTITUCIONAL--> 
-  <center><video src="https://www.youtube.com/watch?v=5Peo-ivmupE&ab_channel=BinaryLab" controls>Secciona para el video intitucional</video></center>
+  <div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/watch?v=5Peo-ivmupE&ab_channel=BinaryLab" title="YouTube video" allowfullscreen></iframe>
+  </div>
 </section>
   <section class="fotos-de-presentacion">
     <div class="fotos"></div>
