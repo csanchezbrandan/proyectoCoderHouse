@@ -4,39 +4,46 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-	<link rel="stylesheet" href="./styles/styles.css">
+	<!--<link rel="stylesheet" href="./styles/styles.css">-->
   <title>Sumampa.tur</title>
 </head>
 <body>
   <header>
     </div>
-    <div class="container__menu">
-      <img class="navbar-brand" src="./images/logo.svg" alt="Logo">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-        <ul>
+    <nav class="navbar navbar-expand-lg bg-light" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./images/logo.svg" alt="logo" height="90px" width="90px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./Pages/queHacer.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Que Hacer
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./Pages/AventuraNaturaleza.html">Aventura y Naturaleza</a></li>
+                <li><a class="dropdown-item" href="./Pages/cocinayvinos.html">Cocina y Vinos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Fiestas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Pages/servicios.html">Servicios</a>
+            </li>
+          </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            <a class="nav-link" href="./Pages/informacion.html">Informacion</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Que Hacer</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./Pages/AventuraNaturaleza.html">Aventura y Naturaleza</a></li>
-              <li><a class="dropdown-item" href="./Pages/cocinayvinos.html">Cocina y Vinos</a></li>
-              <li><a class="dropdown-item" href="./Pages/fiestas.html">Fiestas</a></li>
-            </ul>
-          </li>
-          <li><a href="./Pages/destinos.html">destinos</a>
-          <ul>
-            <li><a href="./Pages/fiestas.html">info 1</a></li>
-            <li><a href="">info 2</a></li>
-            <li><a href="#">info 3</a></li>
+            </li>
           </ul>
-          </li>
-          <li><a href="./Pages/servicios.html">servicios</a></li>
-          <li><a href="./Pages/informacion.html">informacion</a></li>
-        </ul>
-      </nav>
+        </div>
+      </div>
+    </nav>
     </div>
   </div>
   </header>
