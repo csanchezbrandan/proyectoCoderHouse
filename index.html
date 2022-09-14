@@ -11,19 +11,19 @@
   <header>
     </div>
     <div class="container__menu">
-      <img src="./images/logo.svg" alt="Logo">
+      <img class="navbar-brand" src="./images/logo.svg" alt="Logo">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
         <ul>
-          <li class="nav-item"><a class="nav-link active" href="./index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link active" href="./Pages/queHacer.html">que hacer</a>
-            <ul>
-              <li><a href="./Pages/AventuraNaturaleza.html ">aventura y naturaleza</a></li>
-              <li><a href="./Pages/cocinayvinos.html">cocina y vinos</a></li>
-              <li><a href="#">imperdibles</a></li>
-              <li><a href="#">cultura</a></li>
-              <li><a href="#">religioso</a></li>
-              <li><a href="#">turismo</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Que Hacer</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./Pages/AventuraNaturaleza.html">Aventura y Naturaleza</a></li>
+              <li><a class="dropdown-item" href="./Pages/cocinayvinos.html">Cocina y Vinos</a></li>
+              <li><a class="dropdown-item" href="./Pages/fiestas.html">Fiestas</a></li>
             </ul>
           </li>
           <li><a href="./Pages/destinos.html">destinos</a>
@@ -91,13 +91,12 @@
     <div class="fotos"></div>
     <div class="fotos"></div>
     <div class="fotos"></div>
-    
   </section>
 <footer>
   <div class="iconRedSocial">
-    <img src="../web/images/facebook.png" alt="Facebook">
-    <img src="../web/images/instagram.png" alt="Instagram">
-    <img src="../web/images/youtube.png" alt="YouTube">
+    <img src="./images/facebook.png" alt="Facebook">
+    <img src="./images/instagram.png" alt="Instagram">
+    <img src="./images/youtube.png" alt="YouTube">
   </div>
 </footer>
 <!-- JavaScript Bundle with Popper -->
