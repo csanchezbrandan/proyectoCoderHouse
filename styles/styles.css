@@ -129,13 +129,12 @@ nav ul li ul li a:hover{
   height: 450px;
   margin: auto;
 }
-
 section{
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  grid-template-rows: 1fr;
-  width: 100%;
-  height: 600px;
+  display: flex;
+justify-content: space-evenly;
+  margin-top: 10px;
+  background-color: #e8e0ae;
+  padding: 10px;
 }
 
 .descripsion-noticias{
@@ -194,9 +193,7 @@ align-items: center;
 
  footer{
   display: flex;
-  justify-content:space-around;
   background-color: #52493a;
-  text-align: center;
   font-size: 15px;
   color:white;
   width: 100%;
@@ -205,6 +202,6 @@ align-items: center;
  }
 
  .iconRedSocial{
+  justify-content: space-between;
   align-items: center;
-  
  }
