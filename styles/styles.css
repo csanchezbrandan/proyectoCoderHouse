@@ -129,13 +129,7 @@ nav ul li ul li a:hover{
   height: 450px;
   margin: auto;
 }
-section{
-  display: flex;
-justify-content: space-evenly;
-  margin-top: 10px;
-  background-color: #e8e0ae;
-  padding: 10px;
-}
+
 
 .descripsion-noticias{
   display: flex;
