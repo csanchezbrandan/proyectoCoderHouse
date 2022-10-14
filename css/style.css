@@ -8127,7 +8127,11 @@
     background: #40bfc1 !important; }
   
   .ftco-section {
-    padding: 7em 0; }
+    padding: 0; }
+
+    .embed-responsive embed-responsive-16by9{
+      padding-top: 10px;
+    }
   
   .ftco-no-pt {
     padding-top: 0; }
