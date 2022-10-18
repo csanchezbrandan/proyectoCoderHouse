@@ -8156,7 +8156,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
     @media (max-width: 991.98px) {
       .ftco-navbar-light {
-        background: #b5b1b1 !important;
+        background: #7c8569 !important; /*#b5b1b1*/
         position: relative;
         top: 0;
         padding: 10px 15px; } }
@@ -8233,7 +8233,7 @@
       @media (max-width: 991.98px) {
         .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
           display: block !important;
-          background: #c3c1c1;
+          background: #a4ab80; /*#c3c1c1*/
           border-left: 1px solid rgba(255, 255, 255, 0.3);
           border-radius: 0; }
           .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu .dropdown-item {
@@ -8261,7 +8261,7 @@
         transform: scaleX(1); }
       @media (max-width: 991.98px) {
         .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-          color: #40bfc1; }
+          color: #fff; }
           .ftco-navbar-light .navbar-nav > .nav-item.active > a:before {
             display: none; } }
     .ftco-navbar-light .navbar-toggler {
